@@ -1,0 +1,130 @@
+#font-color{
+    color:black;
+}
+
+.navbar {
+    border-top: 10px solid #85705b;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#go-left {
+    margin-left: 20px;
+}
+ 
+html,body{
+    font-family: "Times New Roman", Times, serif;
+    height: 100%; width: 100%;
+}
+
+.login-color{
+    color: #7a1f40;
+}
+
+.middle{
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+
+.center-text{
+    padding-top: 15px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.dropdown-menu {
+    background-color: transparent;
+}
+.dropdown .dropdown-menu {
+    background-color: transparent;
+}
+
+.carousel-content {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  text-align: center;
+  padding-top: 15%;
+  padding-left: 35%;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.icon-size{
+    width: 50px;
+    height: 50px;
+}
+
+.remove-blur{
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    image-rendering: -o-crisp-edges; /* Opera */
+    image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+}
+
+.box-overlay{
+    position: relative;
+    max-width: 400px;
+    padding-top: 25%;
+    padding-left: 20%;
+  }
+  
+.box-item1{
+    color: #272526;;
+    position: relative;
+    bottom: 69px;
+    left: 315px;
+    letter-spacing: 5px;
+    border: none;
+}
+
+.box-item2{
+    color: #272526;;
+    position: relative;
+    bottom: 94px;
+    left: 560px;
+    letter-spacing: 5px;
+    border: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #272526;
+    font-size: large;
+    letter-spacing: 5px;
+    opacity: 1; /* Firefox */
+  }
+
+  #absolute{
+    position: absolute;
+  }
+
+  .table-card{
+      top: 70%;
+      border-radius: 15px;;
+      background-color: white;
+  }
+
+  .center-text{
+      text-align: center;
+      padding-bottom: 20px;
+      bottom: 10px;
+  }
+
+  .flexParent{
+    display: flex;
+  }
+  
+  .flexChild{
+    width: 20%;
+  }
+  
+  @media only screen and (max-width: 60px) {
+     .flexParent{
+        flex-wrap: wrap; 
+     }
+     .flexChild{
+       width: 50%;
+     }
+     .wrap{
+       width: 30%;
+     }
+  }
