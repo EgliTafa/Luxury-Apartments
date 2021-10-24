@@ -128,3 +128,64 @@ html,body{
        width: 30%;
      }
   }
+
+  .icons {
+    float: left;
+    padding:5px;
+    width:  150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.wrap {
+  width: 500px;
+}
+
+.wrap img {
+  float: left;
+  width: 125px;
+  height: 100px;
+}
+
+.wrap img.lg {
+  width: 250px;
+  height: 200px;
+}
+
+.wrap img.lg2 {
+  width: 250px;
+  height: 200px;
+  float: right;
+}
+
+.grid-image-customise{
+  border-radius: 15px;
+  width: 150%;
+  height: 150%;
+  padding:5px;
+}
+
+.link-normal{
+  background-color: black;
+  opacity: 1.0;
+  transition: 0.3s;
+}
+
+.link-normal:hover {
+  filter: brightness(50%);
+  opacity: 0.5;
+}
+
+.top-corners{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.my-card-text{
+  color: #837159;
+}
+
+.left-to-right {
+  display: flex;
+  flex-direction: row;
+}
