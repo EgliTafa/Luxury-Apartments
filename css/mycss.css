@@ -189,3 +189,27 @@ html,body{
   display: flex;
   flex-direction: row;
 }
+
+.dropdown-menu-customised {
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#left{
+  position:relative; /* have a reference point for child positioning */
+}
+
+.charleft-img{
+  position:absolute; /* position absolutely */
+  right:0; /* position on the right hand side of the parent, #left */
+}
+
+.image-scale{
+  margin-right: 30px; 
+  border-top-right-radius: 15px; 
+  border-bottom-right-radius: 15px;
+  width: 290px;
+  height: 216px;
+}
